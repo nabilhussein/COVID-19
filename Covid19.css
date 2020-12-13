@@ -186,3 +186,22 @@ overflow: hidden;
 content: counter(li-counter);
 counter-increment: li-counter;
 }
+@media (max-width: 768px){
+	.mainMenu{
+		display: none;
+	}
+	.mainMenu.hamburger{
+		display: block;
+	}
+}
+
+@media (min-width: 769px){
+	.mainMenu{
+		display: initial;
+	}
+
+	#toggle-bar{
+		display: none;
+	}
+
+}

@@ -12,8 +12,13 @@
 	<header>
 		<a href="index.html"><img src="images/logo.png" alt="covid-19LG"></a>
 	</header>
+     <div class="tootle-menu" >
+               <h1 id="toggle-bar">
+                    ☰
+                  </h1>
+                </div>
 	<nav>
-		<ul>
+<ul class="mainMenu">
             <li><a href="index.html">Home</a></li>
 			<li><a href="What%20to%20do.html">What to do</a></li>
 			<li><a href="Covid-19Tips.html">Covid-19 Tips</a></li>
@@ -21,6 +26,16 @@
 			<li><a href="HelpInfo.html">Help Info</a></li>
 		</ul>
 	</nav>
+    <script>
+    function toggleMenu() {
+        let getMenu = document.querySelector(".mainMenu");
+        getMenu.classList.toggle("hamburger");
+        }
+
+        let getHamburger = document.querySelector("#toggle-bar");
+
+        getHamburger.addEventListener("click", toggleMenu);    
+    </script>
 	<main role="main">
 		<img src="images/coronavirus-5145475_1920.jpg"alt="thestore">
 		<h1>The best way to prevent illness is to avoid being exposed to this virus.</h1>

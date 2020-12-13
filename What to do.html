@@ -14,7 +14,12 @@
 		<a href="index.html"><img src="images/logo.png" alt="covid-19LG"></a>
 	</header>
 	<nav>
-		<ul>
+         <div class="tootle-menu" >
+               <h1 id="toggle-bar">
+                    ☰
+                  </h1>
+                </div>
+		<ul class="mainMenu">
             <li><a href="index.html">Home</a></li>
 			<li><a href="What%20to%20do.html">What to do</a></li>
 			<li><a href="Covid-19Tips.html">Covid-19 Tips</a></li>
@@ -22,6 +27,16 @@
 			<li><a href="HelpInfo.html">Help Info</a></li>
 		</ul>
 	</nav>
+    <script>
+    function toggleMenu() {
+        let getMenu = document.querySelector(".mainMenu");
+        getMenu.classList.toggle("hamburger");
+        }
+
+        let getHamburger = document.querySelector("#toggle-bar");
+
+        getHamburger.addEventListener("click", toggleMenu);    
+    </script>
 	<main role="main">
 		<img src="images/th-1999x1999-i93877-coronavirus-origine.jpeg"alt="thestore">
 		<h1>What to Do if You Know have <b>Coivd-19</b>?</h1>
@@ -41,6 +56,7 @@
                  <li><a href="#">Avoid public transportation, ride-sharing, or taxis</a></li>
      </ol>
 </div>
+
            
 		
         
