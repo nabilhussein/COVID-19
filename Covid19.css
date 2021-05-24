@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #fcf9ea;
+    background-color: #29bb89;
     
     color: #545454;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -35,7 +35,7 @@ b {
     font-size: 30px;
 }
 strong{
-    color: #54e346;
+    color: #301b3f;
     font-weight: 600;
     font-size: 30px;
   
@@ -78,7 +78,7 @@ nav ul li {
 }		
 nav ul li a {
 	text-decoration: none;
-	color: #799351;
+	color: #151515;
     font-size: 20px;
 }
 .list-type2{
